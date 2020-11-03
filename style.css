@@ -1,3 +1,65 @@
-* {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height:1.5;
+	padding: 0;
+    margin: 0;
+}
+
+.highlight {
+    color: rgb(38, 171, 211);
+}
+
+.current a {
+    color:  rgb(38, 171, 211);
+    font-weight: bold;
     
 }
+
+header {
+    background: black;
+    color: white;
+    min-height: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header a:hover {
+    color:  rgb(38, 171, 211);
+	transition: 0.5s;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
