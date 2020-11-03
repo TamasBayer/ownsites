@@ -63,3 +63,44 @@ header #branding h1 {
     margin: 0;
 }
 
+
+#starting-section {
+    background: url('./img/starting.jpg') no-repeat center
+    center/cover;
+    height: 60vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding: 1% 20% 5% 20%;
+}
+
+#starting-section h1 {
+    font-size: 50px;
+}
+
+#starting-section p {
+    font-size: 25px;
+}
+
+#starting-section a {
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  #starting-section a:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+  }
+  
+  #starting-section a:active {
+    box-shadow: none;
+    top: 5px;
+  }
+  
+  #starting-section a:visited {
+    background-color: #ccc;
+  }
