@@ -92,17 +92,17 @@ header #branding h1 {
     text-transform: uppercase;
   }
   
-  #starting-section a:hover {
+#starting-section a:hover {
     background-color: #ce0606;
     cursor: pointer;
   }
   
-  #starting-section a:active {
+#starting-section a:active {
     box-shadow: none;
     top: 5px;
   }
   
-  #starting-section a:visited {
+#starting-section a:visited {
     background-color: #ccc;
   }
 
@@ -122,3 +122,30 @@ header #branding h1 {
     font-weight: bold;
     color: rgb(99, 93, 93);
 }
+
+/*Offer section*/
+
+#offer-section {
+    display: flex;
+    text-align: center;
+    vertical-align: top;
+    padding: 60px 20% 60px 20%; 
+}
+
+#offer-section h3 {
+    font-size: 25px;
+}
+
+#offer-section p {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(99, 93, 93);
+}
+
+.box {
+    width: 300px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
