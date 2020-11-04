@@ -139,20 +139,57 @@ header #branding h1 {
 
 #offer-section h3 {
     font-size: 25px;
+    color: white;
+    position:relative;
+}
+
+#offer-section h3::after{
+    content:'';
+    height:2px;
+    width:20%;
+    background: rgb(207, 27, 27);
+    position:absolute;
+    left:calc(50% - 10%);
+    bottom:-5px;
+
 }
 
 #offer-section p {
     font-size: 18px;
     font-weight: bold;
-    color: rgb(99, 93, 93);
+    padding-top: 20px;
+    margin: 20px;
+    color: white;
+}
+
+#offer-section i {
+    color:rgb(207, 27, 27);
+    margin-top: 30px;
+    font-size: 50px;
 }
 
 .box {
-    width: 300px;
+    width: 350px;
+    height: 380px;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    background: rgb(24, 23, 23);
+    border-radius: 5%;
 }
+
+.box:hover {
+    background: rgb(148, 15, 15);
+
+}
+
+.box:hover #team, .box:hover #experience, .box:hover #client {
+    color: white;
+}
+
+
+
+
 
 /*Project showcase section*/
 
