@@ -63,11 +63,12 @@ header #branding h1 {
     margin: 0;
 }
 
+/*Starting section*/
 
 #starting-section {
     background: url('./img/starting.jpg') no-repeat center
     center/cover;
-    height: 60vh;
+    height: 80vh;
     padding-left: 20%;
     padding-right: 20%;
     padding: 1% 20% 5% 20%;
@@ -104,3 +105,20 @@ header #branding h1 {
   #starting-section a:visited {
     background-color: #ccc;
   }
+
+/*Introduction section*/
+
+#introduction-section {
+    text-align: center;
+    padding: 60px 20% 60px 20%;
+}
+
+#introduction-section h1 {
+    font-size: 30px;
+}
+
+#introduction-section p {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(99, 93, 93);
+}
