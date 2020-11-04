@@ -114,10 +114,11 @@ header #branding h1 {
 
 #introduction-section {
     text-align: center;
-    padding: 60px 20% 60px 20%;
+    padding: 0 20% 60px 20%;
 }
 
 #introduction-section h1 {
+    color: white;
     font-size: 30px;
 }
 
