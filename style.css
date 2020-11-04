@@ -4,6 +4,7 @@ body {
 	line-height:1.5;
 	padding: 0;
     margin: 0;
+    background: rgb(238, 237, 236);
 }
 
 .highlight {
@@ -149,3 +150,62 @@ header #branding h1 {
     margin-right: auto;
 }
 
+/*Project showcase section*/
+
+#project-showcase-section {
+    display: flex;
+    vertical-align: top;
+    padding: 200px 10% 200px 10%; 
+    
+}
+
+#project-showcase-section h3 {
+    font-size: 25px;
+    margin: 30px;
+}
+
+#project-showcase-section p {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(99, 93, 93);
+    margin: 30px;
+}
+
+#project-showcase-section a {
+    margin: 30px;
+    background-color: red;
+    box-shadow: 0 5px 0 darkred;
+    color: white;
+    padding: 1em 1.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#project-showcase-section a:hover {
+    background-color: #ce0606;
+    cursor: pointer;
+  }
+
+#project-showcase-section a:active {
+    box-shadow: none;
+    top: 5px;
+  }
+  
+#project-showcase-section a:visited {
+    background-color: #ccc;
+  }
+
+#project-showcase-section img {
+    width: 700px;
+    height: 450px;
+}
+
+.project-box {
+    width: 700px;
+    height: 750px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+}
