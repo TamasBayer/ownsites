@@ -8,11 +8,11 @@ body {
 }
 
 .highlight {
-    color: rgb(38, 171, 211);
+    color: rgb(148, 15, 15);
 }
 
 .current a {
-    color:  rgb(38, 171, 211);
+    color:  rgb(148, 15, 15);
     font-weight: bold;
     
 }
@@ -52,7 +52,7 @@ header li {
 }
 
 header a:hover {
-    color:  rgb(38, 171, 211);
+    color: rgb(148, 15, 15);
 	transition: 0.5s;
 }
 
@@ -71,9 +71,7 @@ header #branding h1 {
     center/cover;
     color: white;
     height: 80vh;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding: 1% 20% 5% 20%;
+    padding: 5% 20% 5% 20%;
 }
 
 #starting-section h1 {
@@ -85,19 +83,22 @@ header #branding h1 {
 }
 
 #starting-section a {
-    background-color: red;
-    box-shadow: 0 5px 0 darkred;
+    border: 2px solid;
+    border-color: rgb(148, 15, 15);
     color: white;
-    padding: 1em 1.5em;
+    padding: 1em 1em;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
+
+    background: linear-gradient(to left, black 50%, rgb(148, 15, 15) 50%) right;
+    background-size: 200%;
+    transition: .3s ease-out;
   }
   
 #starting-section a:hover {
-    background-color: #ce0606;
-    cursor: pointer;
-  }
+    background-position: left;
+}
   
 #starting-section a:active {
     box-shadow: none;
@@ -174,8 +175,8 @@ header #branding h1 {
 
 #project-showcase-section a {
     margin: 30px;
-    background-color: red;
-    box-shadow: 0 5px 0 darkred;
+    background-color: rgb(148, 15, 15);
+    box-shadow: 0 5px 0 rgba(139, 0, 0, 0.623);
     color: white;
     padding: 1em 1.5em;
     position: relative;
