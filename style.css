@@ -209,3 +209,25 @@ header #branding h1 {
     margin-right: auto;
     background: white;
 }
+
+/*Client section section*/
+
+#client-section {
+    margin: auto;
+    text-align: center;
+    padding: 60px 10% 60px 10%;
+}
+
+#client-section h1 {
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+#client-section img{
+    width: 150px;
+    filter: grayscale(1.0);
+    margin: 20px;
+    vertical-align: middle;
+}
+
+
